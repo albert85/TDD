@@ -1,0 +1,29 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albert85/TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albert85/TDD/issues"
+  },
+  "homepage": "https://github.com/albert85/TDD#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
